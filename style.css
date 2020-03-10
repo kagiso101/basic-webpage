@@ -1,0 +1,59 @@
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+
+/* .clearfix {
+    overflow: auto;
+    zoom: 1;
+} */
+
+.content {
+    padding: 1em;
+}
+
+.history {
+    display: flex;
+}
+
+.Kaap {
+    flex: 1;
+}
+
+.parliment {
+    flex: 1;
+}
+
+.long {
+    flex: 1;
+}
+
+@media(max-width:800px) {
+
+    /* .history {
+        border: 1xp #ccc solid;
+        padding: 10px;
+        float: left;
+    } */
+    .history {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Kaap {
+        flex: 1;
+        display: flex;
+    }
+
+    .parliment {
+        flex: 1;
+        display: flex;
+    }
+
+    .long {
+        flex: 1;
+        display: flex;
+    }
+}
