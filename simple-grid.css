@@ -107,6 +107,7 @@ p {
   float: left;
   margin: 0.5rem 2%;
   min-height: 0.125rem;
+  
 }
 
 .col-1,
@@ -124,7 +125,7 @@ p {
   width: 96%;
 }
 
-.col-1-sm {
+.col-1-sm  {
   width: 4.33%;
 }
 
@@ -132,7 +133,7 @@ p {
   width: 12.66%;
 }
 
-.col-3-sm {
+.col-3-sm  {
   width: 21%;
 }
 
@@ -144,11 +145,11 @@ p {
   width: 37.66%;
 }
 
-.col-6-sm {
+.col-6-sm -sm {
   width: 46%;
 }
 
-.col-7-sm {
+.col-7-sm -sm {
   width: 54.33%;
 }
 
@@ -181,6 +182,14 @@ p {
 .hidden-sm {
   display: none;
 }
+table,
+th,
+td {
+    border: 1px solid black;
+}
+.long{
+  display: flexbox;
+} 
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
   .container {
